@@ -6,10 +6,11 @@
 CHANGELOG:
 ==================================================
 Fixes:
-- Nothing this is the initial Version.
+- Quality Level Setting for UI
+- Fixed Descriptions for dependency properties
 
 Updates:
-- Initial Commit of Source Files.
+- Nothing.
 
 BEFORE YOU START:
 ==================================================

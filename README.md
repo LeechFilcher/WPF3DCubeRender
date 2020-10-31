@@ -1,3 +1,4 @@
+
 3D Cube Render Control:
 ==================================================
 ![**Preview Render**](https://i.imgur.com/H5DoGPU.gif)
@@ -19,9 +20,12 @@ If you like the project, I would love it if you'd star it or fork it to use it i
 
 LICENSE: 
 ==================================================
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
 <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 <br/>This work was created by Lukas Duerr please give attribution on distribution of this software or modified forms of it, by linking this repository or mentioning the top contributors of it.
+<br/>
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
-
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 

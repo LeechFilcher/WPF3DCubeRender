@@ -73,7 +73,7 @@ namespace Math
         }
 
         /// <summary>
-        /// Dependency Property for the Cube Size Multiplier (Default Value: 1)
+        /// Dependency Property for the Cube Opacity (Default Value: 0.8)
         /// </summary>
         DependencyProperty CubeOpacityProperty = DependencyProperty.Register("CubeOpacity", typeof(double),
             typeof(CubeRenderer), new PropertyMetadata(0.8d));
@@ -137,7 +137,7 @@ namespace Math
         }
 
         /// <summary>
-        /// Sets the interval in Milliseconds to update the Square (Default Value: 10ms)
+        /// Sets the interval in Milliseconds to update the square (Default Value: 1)
         /// </summary>
         DependencyProperty RuntimeFrequencyProperty = DependencyProperty.Register("RuntimeFrequency", typeof(int),
             typeof(CubeRenderer), new PropertyMetadata(1));
@@ -154,7 +154,7 @@ namespace Math
         }
 
         /// <summary>
-        /// Sets the shadow Quality depending on an Integral Value (0 = Quality, 1 = Performance)
+        /// Sets the shadow Quality depending on an integral value (0 = Quality, 1 = Performance, Default 0)
         /// </summary>
         DependencyProperty ShadowQualityProperty = DependencyProperty.Register("ShadowQuality", typeof(int),
             typeof(CubeRenderer), new PropertyMetadata(0));
@@ -186,7 +186,7 @@ namespace Math
         }
 
         /// <summary>
-        /// Sets the Depth of the Shadow
+        /// Sets the Depth / Distance of the Shadow
         /// </summary>
         DependencyProperty ShadowDepthProperty = DependencyProperty.Register("ShadowDepth", typeof(double),
             typeof(CubeRenderer), new PropertyMetadata(10d));
@@ -231,7 +231,7 @@ namespace Math
         }
 
         /// <summary>
-        /// Sets the shadow Quality depending on an Integral Value (0 = Quality, 1 = Performance)
+        /// Setting to control if the cube should be colored or just black
         /// </summary>
         DependencyProperty ColorCubeProperty = DependencyProperty.Register("ColorCube", typeof(bool),
             typeof(CubeRenderer), new PropertyMetadata(false));

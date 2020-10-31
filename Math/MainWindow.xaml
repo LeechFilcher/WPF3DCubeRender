@@ -60,8 +60,8 @@
                 <CheckBox x:Name="EnableShadowsCb" Grid.Row="1" Margin="5" Content="Enable Shadows" Click="EnableShadowsChanged"/>
                 <TextBlock Grid.Row="2" Text="Shadow Type:"/>
                 <ComboBox x:Name="ShadowQualityCoB" Grid.Row="3" Margin="5" SelectionChanged="Selector_OnSelectionChanged">
-                    <ComboBoxItem>Performance</ComboBoxItem>
                     <ComboBoxItem>Quality</ComboBoxItem>
+                    <ComboBoxItem>Performance</ComboBoxItem>
                 </ComboBox>
                 <Grid Grid.Row="4">
                     <Grid.ColumnDefinitions>

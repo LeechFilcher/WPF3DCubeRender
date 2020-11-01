@@ -472,8 +472,8 @@ namespace Math
                                                "ms\nCurrent FPS: " + 1000 / stpStopwatch.ElapsedMilliseconds;
                 }
             });
-            stpStopwatch = new Stopwatch();
-            stpStopwatch.Start();
+            
+            stpStopwatch.Restart();
         }
 
         /// <summary>

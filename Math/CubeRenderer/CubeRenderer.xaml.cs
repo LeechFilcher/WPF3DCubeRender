@@ -445,31 +445,15 @@ namespace Math
 
                     if (currentIndex < 2 && drawShadows)
                     {
-                        if (shadowQuality == ShadowQualityEnum.Quality)
+                        polygon.Effect = new DropShadowEffect()
                         {
-                            polygon.Effect = new DropShadowEffect()
-                            {
-                                ShadowDepth = ShadowDepth,
-                                BlurRadius = ShadowBlurRadius,
-                                Direction = ShadowDirection,
-                                Opacity = ShadowOpacity,
-                                RenderingBias = RenderingBias.Quality,
-                                Color = Color.FromArgb(150, 0, 0, 0)
-                            };
-                        }
-
-                        if (shadowQuality == ShadowQualityEnum.Performance)
-                        {
-                            polygon.Effect = new DropShadowEffect()
-                            {
-                                ShadowDepth = ShadowDepth,
-                                BlurRadius = ShadowBlurRadius,
-                                Direction = ShadowDirection,
-                                Opacity = ShadowOpacity,
-                                RenderingBias = RenderingBias.Performance,
-                                Color = Color.FromArgb(150, 0, 0, 0)
-                            };
-                        }
+                            ShadowDepth = ShadowDepth,
+                            BlurRadius = ShadowBlurRadius,
+                            Direction = ShadowDirection,
+                            Opacity = ShadowOpacity,
+                            RenderingBias = (shadowQuality == ShadowQualityEnum.Quality) ? RenderingBias.Quality : RenderingBias.Performance,
+                            Color = Color.FromArgb(150, 0, 0, 0)
+                        };
                     }
                     else
                     {

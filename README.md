@@ -8,6 +8,7 @@ CHANGELOG:
 Fixes:
 - Quality Level Setting for UI
 - Fixed Descriptions for dependency properties
+- Removed Code Repitition
 
 Updates:
 - Nothing.
